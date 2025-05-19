@@ -19,7 +19,7 @@ const Stepper: FC<StepperProps> = ({ steps, activeStep }) => {
               <div
                 className={`flex h-10 w-10 items-center justify-center rounded-full ${
                   index <= activeStep
-                    ? "bg-indigo-600 text-white"
+                    ? "bg-green-600 text-white"
                     : "bg-gray-200 text-gray-600"
                 }`}
               >
@@ -52,7 +52,7 @@ const Stepper: FC<StepperProps> = ({ steps, activeStep }) => {
             {index < steps.length - 1 && (
               <div className="h-1 flex-1 bg-gray-200">
                 <motion.div
-                  className="h-full bg-indigo-600"
+                  className="h-full bg-green-600"
                   initial={{ width: "0%" }}
                   animate={{ width: index < activeStep ? "100%" : "0%" }}
                   transition={{ duration: 0.5 }}

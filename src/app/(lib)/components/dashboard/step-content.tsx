@@ -65,7 +65,7 @@ const StepContent: FC<StepContentProps> = ({ activeStep }) => {
                   className="flex items-center justify-between border-b pb-2"
                 >
                   <div className="flex items-center">
-                    <ShoppingCart className="mr-2 h-5 w-5 text-indigo-600" />
+                    <ShoppingCart className="mr-2 h-5 w-5 text-green-600" />
                     <span>{item.name}</span>
                   </div>
                   <div>
@@ -106,7 +106,7 @@ const StepContent: FC<StepContentProps> = ({ activeStep }) => {
                   <input
                     type={field.type}
                     placeholder={field.placeholder}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
                   />
                 </motion.div>
               ))}
@@ -128,7 +128,7 @@ const StepContent: FC<StepContentProps> = ({ activeStep }) => {
                   <input
                     type={field.type}
                     placeholder={field.placeholder}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
                   />
                 </motion.div>
               ))}

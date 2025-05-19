@@ -7,15 +7,13 @@ const TopNavigationBar: FC = () => {
         <div className="flex h-16 justify-between">
           <div className="flex">
             <div className="flex flex-shrink-0 items-center">
-              <span className="text-2xl font-bold text-indigo-600">
-                Catalog
-              </span>
+              <span className="text-2xl font-bold text-green-600">Catalog</span>
             </div>
 
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <a
                 href="#"
-                className="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+                className="inline-flex items-center border-b-2 border-green-500 px-1 pt-1 text-sm font-medium text-gray-900"
               >
                 Home
               </a>

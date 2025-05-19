@@ -64,7 +64,7 @@ const NavigationButtons: FC<NavigationButtonsProps> = ({
         disabled={activeStep === 0 || isLoading}
         className={cn(
           "rounded-md border border-transparent px-4 py-2 text-sm font-medium disabled:cursor-not-allowed disabled:bg-gray-300 disabled:text-gray-500",
-          activeStep !== 0 && "bg-indigo-600 text-white hover:bg-indigo-700",
+          activeStep !== 0 && "bg-green-600 text-white hover:bg-green-700",
         )}
       >
         Previous
@@ -79,7 +79,7 @@ const NavigationButtons: FC<NavigationButtonsProps> = ({
           "rounded-md border border-transparent px-4 py-2 text-sm font-medium disabled:cursor-not-allowed disabled:bg-gray-300 disabled:text-gray-500",
           activeStep === steps.length - 1
             ? "cursor-not-allowed bg-gray-300 text-gray-500"
-            : "bg-indigo-600 text-white hover:bg-indigo-700",
+            : "bg-green-600 text-white hover:bg-green-700",
         )}
       >
         {activeStep === steps.length - 1 ? "Finish" : "Next"}
