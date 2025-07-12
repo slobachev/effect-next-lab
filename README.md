@@ -1,4 +1,4 @@
-### Integrating Effect into Next.js ecosystem as part of Contract-based programming and Error-Driven Development (work in progress)
+### Integrating Effect into Next.js ecosystem as part of Contract-based programming and Error-Driven Development (work in progress) 
 
 So far, improvements are visible in the following processes:
 
